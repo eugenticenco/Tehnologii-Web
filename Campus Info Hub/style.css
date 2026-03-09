@@ -1,0 +1,96 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f5f7fb;
+}
+
+header{
+background:#2c3e50;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+nav{
+background:#34495e;
+padding:12px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#3498db;
+}
+
+.filters{
+text-align:center;
+padding:20px;
+}
+
+button{
+padding:10px 15px;
+margin:5px;
+border:none;
+border-radius:6px;
+background:#3498db;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#2980b9;
+}
+
+main{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+#resources-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+margin-top:0;
+}
+
+.tag{
+display:inline-block;
+background:#ecf0f1;
+padding:4px 8px;
+margin:3px;
+border-radius:4px;
+font-size:12px;
+}
+
+footer{
+text-align:center;
+background:#2c3e50;
+color:white;
+padding:15px;
+margin-top:40px;
+}
+
+.welcome{
+background:white;
+padding:20px;
+border-radius:8px;
+margin-bottom:20px;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}

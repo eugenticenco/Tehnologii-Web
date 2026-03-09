@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+<meta charset="UTF-8">
+<title>Campus Info Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Campus Info Hub</h1>
+<p>Resurse utile pentru studenți</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="pages/library.html">Biblioteca</a>
+<a href="pages/cafeteria.html">Cantina</a>
+<a href="pages/events.html">Evenimente</a>
+<a href="https://www.google.com">Google</a>
+</nav>
+
+<section class="filters">
+
+<button onclick="filterResources('all')">Toate</button>
+<button onclick="filterResources('study')">Studiu</button>
+<button onclick="filterResources('food')">Mâncare</button>
+<button onclick="filterResources('events')">Evenimente</button>
+
+</section>
+
+<main>
+
+    <section class="welcome">
+
+<h2>Bine ai venit!</h2>
+
+<p>
+Bine ai venit pe Campus Info Hub!  
+Acest site îți oferă informații despre resursele din campus,
+precum biblioteca, cantina și evenimentele pentru studenți.
+</p>
+
+</section>
+
+<div id="resources-container"></div>
+
+</main>
+
+<footer>
+© 2026 Campus Info Hub
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+[
+{
+"name":"Biblioteca Centrala",
+"type":"Study Space",
+"location":"Cladirea A",
+"program":"08:00 - 20:00",
+"tags":["study","books"]
+},
+
+{
+"name":"Sala de Lectura",
+"type":"Study Space",
+"location":"Cladirea D",
+"program":"09:00 - 22:00",
+"tags":["study"]
+},
+
+{
+"name":"Cantina Studenteasca",
+"type":"Food",
+"location":"Cladirea B",
+"program":"09:00 - 18:00",
+"tags":["food"]
+},
+
+{
+"name":"Cafenea Campus",
+"type":"Food",
+"location":"Cladirea C",
+"program":"08:00 - 21:00",
+"tags":["food","study"]
+},
+
+{
+"name":"Sala Evenimente",
+"type":"Events",
+"location":"Cladirea E",
+"program":"10:00 - 22:00",
+"tags":["events"]
+}
+]
