@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Biblioteca Centrala",
+        "type": "Biblioteca",
+        "location": "Campus Nord",
+        "program": "08:00 - 20:00",
+        "tags": ["studii", "lectura"]
+    },
+    {
+        "name": "Cantina Principala",
+        "type": "Cantina",
+        "location": "Campus Sud",
+        "program": "07:30 - 18:00",
+        "tags": ["mancare", "pauza"]
+    },
+    {
+        "name": "Sala Evenimente",
+        "type": "Evenimente",
+        "location": "Campus Central",
+        "program": "09:00 - 22:00",
+        "tags": ["concerte", "workshop"]
+    }
+]
